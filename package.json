@@ -1,0 +1,25 @@
+{
+  "name": "react-essentials-start",
+  "version": "0.0.0",
+  "scripts": {
+    "install": "npm-git install",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "npm-git-install": "^0.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9"
+  },
+  "gitDependencies": {
+    "private-package-name": "git@private.git.server:user/repo.git#revision",
+    "public-package-name": "https://github.com/user/repo.git#revision"
+  },
+  "keywords": [],
+  "description": ""
+}
